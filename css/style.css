@@ -1,0 +1,132 @@
+
+ header .navbar-nav{
+float:right;
+} 
+.h11{
+    text-align : center;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.font{
+    color:white !important;
+    }
+.font2{
+    float:right;
+     color:white;
+    }
+.section1{
+    background-color:black;
+}
+.section2{
+    background-color:#403b3b;
+     height:100px;
+      padding:1px;
+    }
+    footer{
+        background-color:#403b3b;
+        height:100px;
+         padding:30px;
+    }
+.link{
+    text-align: right;
+     padding-top:10px;
+     }
+.link a{
+    text-decoration: none;
+     color:white;
+      font-size: 15px;
+       padding:20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.link a:hover{
+    color:red !important;
+ }
+.height{
+    height:350px;
+}
+.tophead{
+    height:50px;
+     padding:15px;
+    }
+.paddingg{
+    padding:0;
+}
+.fa{
+    padding-bottom:20px;
+    margin: 7px 7px;
+    text-decoration: none;
+}
+.fa:hover{
+    color:red;
+}
+
+button{
+    text-align:center;
+    padding:15px;
+    background-color: red;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.salman{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.display{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.width{
+    width:100%;
+}
+.borderr{
+    border-color: #bab6b6;
+    border-style: solid;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .logoImage{
+        width:50%;
+        height:20;
+        float:left;
+    
+        }
+    .font{
+        font-size:10px;
+    }
+    .font2{
+        font-size:10px !important; 
+    } 
+    .top{
+        position: absolute !important;
+    } 
+    .section2{
+        background-color:#403b3b;
+         height:50px;
+          padding:1px;
+        } 
+        .navbar-brand{
+            padding: 10px 15px !important;
+        } 
+     .width1{
+        width:100%;
+    }    
+    header .navbar-nav {
+        float: none;
+        z-index: 9;
+    }
+    header .navbar-nav a{
+        text-align:center;
+        background:#403b3b;
+    }
+    header .navbar-collapse{
+        z-index:9;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024) {
+    
+}
